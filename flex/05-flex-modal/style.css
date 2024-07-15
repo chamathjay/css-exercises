@@ -25,11 +25,6 @@ body {
   display: flex;
 }
 
-.icon-container {
-  display: flex;
-  justify-content: center;
-}
-
 .icon {
   background: lavender;
   color: royalblue;
@@ -43,6 +38,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .header-container {
